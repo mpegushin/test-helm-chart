@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: "{{ .Values.image.name }}:{{ .Values.image.tag }}"
+          image: "ghcr.io/mpegushin/{{ .Values.image.name }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - containerPort: {{ .Values.container.port }}

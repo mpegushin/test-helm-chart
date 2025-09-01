@@ -1,5 +1,6 @@
 image:
   pullPolicy: Always
+  registry: ghcr.io
   name: change_me
   tag: change_me
 
